@@ -5,7 +5,8 @@ function block1(){
 }
 
 function block2() {
-    let elem = document.addEventListener("Block2");
+   let box2 = document.getElementById("Block2");
+   box2.style.borderRadius = "20px"; 
  }
 
 
@@ -25,11 +26,10 @@ function blink(){
 
 
 function block4() {
-    let elem = document.getElementById("Block4");
-    
-    elem.style.color = "red"
-
+    let  box4 = document.getElementById("Block4");
+    box4.style.background= `rgb(${rnd(255)}, ${rnd(255)}, ${rnd(255)})`; 
 }
+
 
 
 function block5(){

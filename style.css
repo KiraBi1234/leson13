@@ -48,10 +48,7 @@ body {
 
 .box>div:hover{
    
-    border-top-left-radius: 2em 0.5em;
-    border-top-right-radius: 1em 3em;
-    border-bottom-right-radius: 4em 0.5em;
-    border-bottom-left-radius: 1em 3em;
+   border-radius: 20px, 20px, 20px, 20px;
 }
 
    
@@ -84,7 +81,7 @@ body {
 
 
 .box2{
-   
+    
     margin: 0 auto;
     height: 200px;
     padding: 100px;
@@ -99,10 +96,7 @@ body {
   padding: 10px;
   max-width: 200px;
 }
-.box2>div:hover{
-    cursor: pointer;
-    color: rgba(238, 6, 6);
-}
+
 
 
 
